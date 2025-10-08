@@ -28,7 +28,7 @@ export default function Home() {
     getBlogPosts();
   }, []);
   return (
-    <div>
+    <div className="mx-10 mt-5">
       {
         blogs.map((blog) => {
           return <BlogCard key={blog.doc} blog={blog} />;

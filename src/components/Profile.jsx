@@ -31,11 +31,8 @@ export default function Profile() {
           </nav>
         </div>
       </div>
-      <div className="flex grow">
-        <div>
+      <div className="grow mx-10">
         <Outlet />
-
-        </div>
       </div>
     </div>
   );
