@@ -1,4 +1,4 @@
-import { useState, useEffect, Suspense } from "react";
+import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { useFirebaseAppContext } from "../firebaseConfig";
 import { doc, getDoc } from "firebase/firestore";
